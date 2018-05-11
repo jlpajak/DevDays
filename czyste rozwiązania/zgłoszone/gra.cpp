@@ -27,4 +27,6 @@ int main()
 	for(int i=1; i<n; i++) { wynik[i] = max((long long)karty[i] - wynik[i-1], wynik[i-1]); }
 
 	printf("%lld\n", wynik[n-1]);
+	
+	return 0;
 }
